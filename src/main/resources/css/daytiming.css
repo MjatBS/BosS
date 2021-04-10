@@ -1,0 +1,70 @@
+.mainFxmlClass {
+    -fx-background-color: #edf9ff;
+}
+.text-field{
+    -fx-font-size: 12;
+    -fx-min-height: 24;
+    -fx-max-height: 24;
+    
+    -fx-min-width: 100;
+    -fx-pref-width: 400;
+    -fx-max-width: 640;
+
+    -fx-padding: 0 0 0 10;
+}
+.times{
+    -fx-background-color: linear-gradient(#CEE3F6, #A9F5A9, #F2F5A9, #F5A9A9, #CEE3F6);
+    -fx-max-height: 500;
+    
+    -fx-alignment: CENTER;
+}
+.time{
+    -fx-alignment: CENTER;
+    -fx-min-height: 20;
+    -fx-max-height: 20;
+        
+    -fx-min-width: 70;
+    -fx-pref-width: 80;
+    -fx-max-width: 100;
+}
+.write-information{
+    -fx-min-height: 20;
+    -fx-max-height: 20;
+    
+    
+    -fx-min-width: 100;
+    -fx-pref-width: 500;
+    -fx-max-width: 800;
+    
+    -fx-padding: 0 0 0 10;
+}
+.empty-column{
+    -fx-pref-width: 36;
+    -fx-min-height: 20;
+    -fx-max-height: 20;
+}
+.title-to-write{
+    -fx-min-height: 30;
+    -fx-max-height: 30;
+    
+    -fx-font-size:16;
+    -fx-alignment: CENTER_LEFT;
+    -fx-padding: 0 0 0 10;
+}
+.title-to-time{
+    -fx-font-size:16;
+    -fx-alignment: CENTER;
+    
+    -fx-min-width: 70;
+    -fx-pref-width: 80;
+    -fx-max-width: 100;
+    
+    -fx-min-height: 30;
+    -fx-max-height: 30;
+    
+    -fx-background-color: #edf9ff;
+}
+
+.empt{
+    -fx-alignment: top-right;
+}

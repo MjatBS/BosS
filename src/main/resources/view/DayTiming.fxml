@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox fx:id="dayTiming" prefHeight="520.0" prefWidth="617.0" styleClass="mainFxmlClass" stylesheets="@../css/daytiming.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/15.0.1" fx:controller="main.java.controllers.DayTimingController">
+    <children>
+        <VBox fx:id="emptyColumn" styleClass="empt">
+            <children>
+                <Label maxWidth="40" prefHeight="40" />
+                <Label styleClass="empty-column" />
+                <Label styleClass="empty-column" />
+                <Label styleClass="empty-column" />
+                <Label prefWidth="23.0" styleClass="empty-column" />
+                <Label styleClass="empty-column" />
+                <Label styleClass="empty-column" />
+                <Label styleClass="empty-column" />
+                <Label styleClass="empty-column" />
+                <Label styleClass="empty-column" />
+                <Label styleClass="empty-column" />
+                <Label styleClass="empty-column" />
+                <Label styleClass="empty-column" />
+                <Label styleClass="empty-column" />
+                <Label styleClass="empty-column" />
+                <Label styleClass="empty-column" />
+                <Label styleClass="empty-column" />
+                <Label styleClass="empty-column" />
+                <Label styleClass="empty-column" />
+                <Label styleClass="empty-column" />
+                <Label styleClass="empty-column" />
+                <Label styleClass="empty-column" />
+                <Label styleClass="empty-column" />
+                <Label styleClass="empty-column" />
+                <Label styleClass="empty-column" />
+            </children>
+        </VBox>
+        <VBox fx:id="time" styleClass="times">
+            <children>
+                <Label styleClass="title-to-time">Время</Label>
+                <Label styleClass="time">00.00-01.00</Label>
+                <Label styleClass="time">01.00-02.00</Label>
+                <Label styleClass="time">02.00-03.00</Label>
+                <Label styleClass="time">03.00-04.00</Label>
+                <Label styleClass="time">04.00-05.00</Label>
+                <Label styleClass="time">05.00-06.00</Label>
+                <Label styleClass="time">06.00-07.00</Label>
+                <Label styleClass="time">07.00-08.00</Label>
+                <Label styleClass="time">08.00-09.00</Label>
+                <Label styleClass="time">09.00-10.00</Label>
+                <Label styleClass="time">10.00-11.00</Label>
+                <Label styleClass="time">11.00-12.00</Label>
+                <Label styleClass="time">12.00-13.00</Label>
+                <Label styleClass="time">13.00-14.00</Label>
+                <Label styleClass="time">14.00-15.00</Label>
+                <Label styleClass="time">15.00-16.00</Label>
+                <Label styleClass="time">16.00-17.00</Label>
+                <Label styleClass="time">17.00-18.00</Label>
+                <Label styleClass="time">18.00-19.00</Label>
+                <Label styleClass="time">19.00-20.00</Label>
+                <Label styleClass="time">20.00-21.00</Label>
+                <Label styleClass="time">21.00-22.00</Label>
+                <Label styleClass="time">22.00-23.00</Label>
+                <Label styleClass="time">23.00-24.00</Label>
+            </children>
+        </VBox>
+        <VBox fx:id="toWrite">
+            <children>
+                <Label styleClass="title-to-write">Занятие</Label>
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+                <Label styleClass="write-information" />
+            </children>
+        </VBox>
+    </children>
+</HBox>

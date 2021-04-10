@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 01.11.2020, 13:25:45
+    Author     : Bogdan
+*/
+/*
+    Don't change sequence of value
+*/
+.value1{
+    -fx-background-color: #CCCCCC;
+}
+.value2{
+    -fx-background-color: #BBBBBB;
+}
+.value3{
+    -fx-background-color: #E6DDD6;
+}
+.value4{
+    -fx-background-color: #CCBCAF;
+}
+.value5{
+    -fx-background-color: #BD9E8B;
+}
+.value6{
+    -fx-background-color: #B28F7B;
+}
+.value7{
+    -fx-background-color: #A98268;
+}
+.value8{
+    -fx-background-color: #9B6F53;
+}
+.value9{
+    -fx-background-color: #905A3A;
+}
+.value10{
+    -fx-background-color: #7D411D;
+}
+

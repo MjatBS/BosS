@@ -1,0 +1,16 @@
+.root{
+    -fx-background-color: #FEFCEF;
+}
+.title{
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+    -fx-background-color: #CCBCAF;
+    -fx-alignment: CENTER;
+    
+}
+.sub-title{
+    -fx-background-color: #E6DDD6;
+    -fx-alignment: CENTER;
+    -fx-font-size: 16;
+}
+

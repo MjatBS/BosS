@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<!--<GridPane id="root" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns:fx="http://javafx.com/fxml/1" fx:controller="training.FXML_TestController" 
+          stylesheets="@/training/css/fxml_test.css">
+    <stylesheets>
+        <URL value="@/training/css/fxml_test.css"/>
+    </stylesheets>    
+</GridPane>-->
+
+<FlowPane fx:id="PanePriorSquares" prefHeight="493.0" prefWidth="725.0" styleClass="background" stylesheets="@../css/priorsquares.css" vgap="45" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/15.0.1" fx:controller="main.java.controllers.PrioritizationSquaresController">
+    <children>
+        <FlowPane fx:id="recommendations" styleClass="recommendations">
+            <children>
+                <Label styleClass="rec">Мозги</Label>
+                <Label styleClass="rec">Образование</Label>
+                <Label styleClass="rec">Деньги</Label>
+                <Label styleClass="rec">Связи</Label>
+                <Label styleClass="rec">Душа</Label>
+                <Label styleClass="rec">Здоровье</Label>
+                <Label styleClass="rec">Отношения</Label>
+            </children>
+        </FlowPane>
+        
+        <HBox fx:id="prSquares">
+            <children>
+                <BorderPane styleClass="priorit-squares">
+                    <top>
+                        <Label styleClass="priorit-squares-top">
+                            Продуктивная деятельность
+                        </Label>
+                    </top> 
+                    <center>
+                        <VBox styleClass="priorit-squares-center">
+                            
+                        </VBox>
+                    </center>
+                    <!-- images for buttons sets in Controller -->
+                    <bottom>
+                        <Button fx:id="b1" onAction="#addPhrase" styleClass="priorit-squares-bottom" />
+                    </bottom>
+                </BorderPane>       
+                <BorderPane styleClass="priorit-squares">
+                    <top>
+                        <Label styleClass="priorit-squares-top">
+                            Удовлетворение потребностей
+                        </Label>
+                    </top> 
+                    <center>
+                        <VBox styleClass="priorit-squares-center">
+                            
+                        </VBox>
+                    </center>
+                    <bottom>
+                        <Button fx:id="b2" onAction="#addPhrase" styleClass="priorit-squares-bottom" />
+                    </bottom>
+                </BorderPane>        
+                <BorderPane styleClass="priorit-squares">
+                    <top>
+                        <Label styleClass="priorit-squares-top">
+                            Человеческие отношения
+                        </Label>
+                    </top> 
+                    <center>
+                        <VBox styleClass="priorit-squares-center">
+                            
+                        </VBox>
+                    </center>
+                    <bottom>
+                        <Button fx:id="b3" onAction="#addPhrase" styleClass="priorit-squares-bottom" />
+                    </bottom>
+                </BorderPane>                 
+            </children>
+        </HBox>
+        
+    </children>
+    
+</FlowPane>

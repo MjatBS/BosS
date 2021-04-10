@@ -1,0 +1,47 @@
+
+
+.background {
+    -fx-background-color: #EDF9FF;
+}
+.label{
+    -fx-padding: 4 15 4 15;
+}
+.rec{
+    -fx-background-color: #C5E4F3;
+    -fx-pref-width: 180;
+    
+}
+.recommendations{
+    -fx-padding: 0 140 0 160;
+    -fx-hgap: 40;
+    -fx-vgap: 15;
+}
+
+.priorit-squares{
+    -fx-spacing: 10;
+    -fx-padding: 0 40 0 10;
+}
+.priorit-squares-top{
+    -fx-padding: 4 0 4 0;
+    -fx-min-width: 100;
+    -fx-pref-width: 200;
+    -fx-alignment: TOP_CENTER;
+    -fx-text-alignment: center;
+    -fx-background-color: #C5E4F3;
+    -fx-wrap-text: true;
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+}
+.priorit-squares-center{
+    -fx-min-width: 100;
+    -fx-pref-width: 200;
+    -fx-pref-height: 210;
+    -fx-background-color: white;
+}
+.priorit-squares-bottom{
+    -fx-min-width: 100;
+    -fx-pref-width: 200;
+    -fx-alignment: BOTTOM_CENTER;
+    -fx-background-color: #C5E4F3;
+    
+}

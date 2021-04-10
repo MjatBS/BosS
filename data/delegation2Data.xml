@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<root>
+	<steps>
+		<step num="1">
+			<label text="Результат и сроки"/>
+			<label text="Продажа задачи"/>
+			<label text="Разьяснение процесса"/>
+			<label text="Ресурсная поддержка"/>
+		</step>
+		<step num="2">
+			<label text="Конечная точка контроля" />
+			<label text="Буфурные точки контроля" />
+		</step>
+		<step num="3">
+			<label text="Мотивирование исполнителя"/>
+			<label text="Практическое руководство"/>
+		</step>
+		<step num="4">
+			<label text="Благодарность исполнителю"/>
+			<label text="Обратная связь по конечной точке"/>
+			<label text="Обратная связь по буферным точкам"/>
+		</step>
+	</steps>
+
+	<persons>
+	    <person num="1">
+	    	<!-- Вообще здесь всего 3 цвета, но из-за лени изменять нужно много цветов -->
+	    	<step color="#cee9c7" num="1" do0="true" do1="false" do2="false" do3="false" />
+	    	<step color="#cee9c7" num="2" do0="true" do1="false"/>
+	    	<step color="#cee9c7" num="3" do0="false" do1="false" />
+	    	<step color="#cee9c7" num="4" do0="true" do1="false" do2="false" />
+	    </person>
+	    <person num="2">
+	    	<step color="#f7f4cc" num="1" do0="true" do1="true" do2="false" do3="false" />
+	    	<step color="#cee9c7" num="2" do0="true" do1="false"/>
+	    	<step color="#f7f4cc" num="3" do0="true" do1="false" />
+	    	<step color="#cee9c7" num="4" do0="true" do1="true" do2="false" />
+	    </person>
+	    <person num="3">
+	    	<step color="#efdbd9" num="1" do0="true" do1="false" do2="true" do3="true" />
+	    	<step color="#f7f4cc" num="2" do0="true" do1="true"/>
+	    	<step color="#f7f4cc" num="3" do0="false" do1="true" />
+	    	<step color="#f7f4cc" num="4" do0="true" do1="true" do2="true" />
+	    </person>
+	    <person num="4">
+	    	<step color="#efdbd9" num="1" do0="true" do1="true" do2="true" do3="true" />
+	    	<step color="#f7f4cc" num="2" do0="true" do1="true"/>
+	    	<step color="#efdbd9" num="3" do0="true" do1="true" />
+	    	<step color="#f7f4cc" num="4" do0="true" do1="true" do2="true" />
+	    </person>
+	</persons>
+</root>

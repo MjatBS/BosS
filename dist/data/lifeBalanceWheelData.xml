@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+--><root>
+    <categories>
+        <category icon="lifeBalanceWheel/career.png" name="Карьера" value="5"/>
+        <category icon="lifeBalanceWheel/family.png" name="Семья" value="3"/>
+        <category icon="lifeBalanceWheel/growth.png" name="Личностный рост" value="8"/>
+        <category icon="lifeBalanceWheel/health.png" name="Здоровье" value="6"/>
+        <category icon="lifeBalanceWheel/money.png" name="Деньги" value="6"/>
+        <category icon="lifeBalanceWheel/relationship.png" name="Отношения" value="4"/>
+        <category icon="lifeBalanceWheel/rest.png" name="Отдых" value="9"/>
+        <category icon="lifeBalanceWheel/spirituality.png" name="Духовность" value="6"/>
+    <category icon="lifeBalanceWheel/money.png" name="Coding" value="9"/></categories>
+</root>
